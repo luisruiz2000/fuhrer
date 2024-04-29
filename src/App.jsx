@@ -1,6 +1,6 @@
 import "./assets/css/App.css";
+import Header from "./components/Header/Header";
 import Nav from "./components/Nav/Nav";
-import Header from "./components/header/header";
 
 function App() {
   return (
