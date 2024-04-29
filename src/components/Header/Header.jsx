@@ -1,4 +1,7 @@
 import "./header.css";
+import whatsApp from '../../assets/icon/whatsapp.png'
+import facebook from '../../assets/icon/facebook.png'
+import instagram from '../../assets/icon/instagram.png'
 const Header = () => {
   return (
     <div className="header">
@@ -13,13 +16,13 @@ const Header = () => {
         </h2>
         <div className="linksHeader">
           <a href="#">
-            <img width="50" src="/src/assets/icon/whatsapp.png" />
+            <img width="50" src={whatsApp} />
           </a>
           <a href="#">
-            <img width="50" src="/src/assets/icon/instagram.png" />
+            <img width="50" src={instagram} />
           </a>
           <a href="#">
-            <img width="50" src="/src/assets/icon/facebook.png" />
+            <img width="50" src={facebook} />
           </a>
         </div>
       </section>

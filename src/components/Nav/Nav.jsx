@@ -28,7 +28,7 @@ const Nav = () => {
           </ul>
         </div>
         <a className="navbar-brand" href="#">
-          <img src="/src/assets/image/logo.png" width="150" />
+          <img src="https://pittstop.in/img/PitstoplogoredFINAL-highres-01.png" width="150" />
         </a>
         <button
           className="navbar-toggler"
