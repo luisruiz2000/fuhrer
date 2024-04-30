@@ -1,7 +1,7 @@
 import "./nav.css";
 const Nav = () => {
   return (
-    <nav className="navbar navbar-expand-lg">
+    <nav data-aos="fade-down" className="navbar navbar-expand-lg">
       <div className="container-fluid contentNav">
         <div className="collapse navbar-collapse" id="navbarText">
           <ul className="navbar-nav me-auto mb-2 mb-lg-0">

@@ -5,33 +5,45 @@
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    /* opacity: 0.8; */
     display: flex;
     justify-content: end;
-    align-items: center;
+    align-items: end;
 }
 
 .contentHeader {
-    width: 50%;
-    background-color: rgba(0, 0, 0, 0.712);
-    margin: 7rem 2rem 0 0;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    background-color: rgba(0, 0, 0, 0.432);
+
 }
 
 .descriptionHeader {
-    padding: 2rem 2rem 1rem 2rem;
+    width: 80%;
     color: white;
     font-weight: bolder;
     font-size: 1.1rem;
     letter-spacing: 1px;
     text-align: center;
+
 }
 
 .linksHeader {
-    opacity: 0.7;
     display: flex;
+    align-items: end;
+    justify-content: end;
+    flex-direction: column;
+}
+
+.descriptionAndFlecha {
+    display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
+    margin: 0 0 2rem 0;
+    padding: 1rem;
 }
+
 
 .linksHeader a {
     margin: 0 1rem 2rem 0;
@@ -40,7 +52,24 @@
 @media screen and (max-width: 991px) {
     .header {
         justify-content: center;
+        background-size: cover;
+        text-align: justify;
+
     }
+
+    .linksHeader {
+        flex-direction: row;
+
+    }
+
+    .contentHeader {
+        flex-direction: column-reverse;
+        align-items: center;
+        padding: 1rem;
+
+    }
+
+
 }
 
 @media screen and (max-width: 769px) {
